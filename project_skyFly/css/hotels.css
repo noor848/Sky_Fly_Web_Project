@@ -1,0 +1,296 @@
+/* FontAwesome for working BootSnippet :> */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+
+body{
+
+
+
+    
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: 50%;
+
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e ;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 40%;
+}
+
+/*----------------------*/
+*{
+
+    margin:0px;
+    padding:0px;
+    
+    }
+    
+    
+    .title5{
+    
+    
+    font-size: 50px !important;
+    font-weight: bold;
+    margin-left: 10%;
+    
+    color:#007bff !important;
+    }
+    .nav1{
+    width:100% !important;
+    position:fixed;
+    height:102px !important;
+    
+    }
+
+    .li1{
+    
+    color:#007bff ;
+    
+    }
+    .li1 a{
+    font-weight: bold;
+    font-size: 19px;
+    color:#007bff !important;
+    
+    }
+    .li1 a::after{
+    content:' ';
+    display:block;
+    width:0;
+    height:1px;
+    background-color:#007bff;
+    transition:width .3s;
+    
+    }
+    
+    .li1 a:hover::after{
+    width:70%;
+    transition:width .3s;
+        }
+    
+    
+    
+    
+        .fas{
+    color:rgb(68,132,206);
+    margin-top: 2%;
+    font-size:70px;
+    
+    
+    
+        }
+    
+    .card-body h4,p{
+    
+    text-align: center;
+    border:none;
+    }
+    .card{
+    
+        border:none;
+    
+    }
+    
+    .drop1 {
+    
+        font-weight: bold;
+        font-size: 19px;
+       
+    
+    
+    
+    
+    }
+    .collapse {
+    margin-left: 12%;
+    }
+    
+    .collapse{
+    
+    width: 80%;
+    
+    }
+
+
+    .image{
+
+width: 100%;
+
+    }
+
+    .image img{
+
+width:100%;
+
+
+    }
+
+
+    .destination{
+
+        color:white !important;
+     
+          top:45%;
+           left:27%;
+           font-size:100px;
+          font-family: 'Redressed', cursive;
+          
+    } 
+            
+
+    .destination2{
+
+        color:white !important;
+     
+          top:66%;
+           left:33%;
+     font-size: 21px;
+          font-family: 'Redressed', cursive;
+    } 
+      
+
+@media (max-width:960px){
+
+.destination{
+
+color:white !important;
+font-size: 40px;
+  top:50%;
+   left:20%;
+   font-family: 'Redressed', cursive;
+   
+    }
+
+    .destination2{
+
+        color:white !important;
+                      top:60%;
+           left:20%;
+          font-family: 'Redressed', cursive;
+
+          font-size: 17px;
+
+    }
+
+
+
+
+}

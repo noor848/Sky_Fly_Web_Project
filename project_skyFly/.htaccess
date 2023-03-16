@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(index|car|hotel|event1|signin|flight|cancle/hotels|cancle/flight|cancle/cars|cancle/Blog|Admin/Blog|Admin/cars|Admin/flight|Admin/hotels|Admin/Chart|Admin/Chart|cardate|datep_h/dateh|hdes|Admin/users|profile|Admin/users1/hotels|Admin/users1/flight|Admin/users1/cars|hotel2|hotel3|phpfile/error|event2|event3|handl)$ $1.php [NC,L]
+
+

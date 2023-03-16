@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title5 {
+}
+.nav1 {
+  width: 100% !important;
+  position: fixed;
+  height: 100px !important;
+}
+.map {
+  width: 100% !important;
+
+  height: 700px;
+}
+.map iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+.li1 {
+  color: #007bff;
+}
+.li1 a {
+  font-weight: bold;
+  font-size: 19px;
+  color: #007bff !important;
+}
+.li1 a::after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s;
+}
+
+.li1 a:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.fas {
+  color: rgb(68, 132, 206);
+  margin-top: 2%;
+  font-size: 70px;
+}
+
+.card-body h4,
+p {
+  text-align: center;
+  border: none;
+}
+.card {
+  border: none;
+}
+
+.drop1 {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.collapse {
+  width: 70% !important;
+}
+
+.dist {
+  background-image: url("https://demokaliumsites-laborator.netdna-ssl.com/travel/wp-content/uploads/2017/06/map-2.png?id=354");
+  width: 100%;
+}
+/*---------------------------------------------------------------------------------------*/
+.contactfrom {
+  background-image: url("https://demokaliumsites-laborator.netdna-ssl.com/travel/wp-content/uploads/2017/06/seigaiha-1.png?id=237");
+}
+
+.logos1 {
+  margin-top: 6%;
+}
+
+.card:hover {
+  -webkit-box-shadow: -2px 0px 24px 4px rgb(68, 132, 206);
+  box-shadow: -2px 0px 24px 4px rgb(68, 132, 206);
+}
+
+.row3 {
+  margin-left: 5%;
+}
+
+/*------------------------------------------*/
+
+.wrapper {
+  width: 960px;
+  margin: 10% auto 0;
+}
+a {
+  text-decoration: none;
+}
+
+.single-portfolio {
+  background-size: cover !important;
+}
+
+.single-portfolio {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 4px;
+  background-size: 100%;
+  background-position: center;
+  transition: 0.5s;
+  overflow: hidden;
+  font-family: poppins;
+  line-height: 1.2;
+}
+
+.single-portfolio::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(90%);
+  background-color: #262626;
+  color: #fff;
+  padding: 0 8px;
+  content: attr(data-title);
+  font-size: 24px;
+  text-align: center;
+}
+
+.single-portfolio::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  padding-top: 35%;
+  font-size: 35px;
+  text-transform: uppercase;
+  content: attr(data-text);
+  transition: 0.5s;
+  margin-top: 8px;
+  transform: translateY(100%);
+}
+
+.single-portfolio:hover:after {
+  transform: translateY(0);
+  transition: 0.5s 0.1s;
+  opacity: 1;
+}
+.single-portfolio:hover:before {
+  transform: translateY(0);
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: 0.5s;
+}
+
+/* ignore the code below */
+
+.link-area {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 15px;
+  border-radius: 40px;
+  background: #262626;
+}
+.link-area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.card1 {
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card1 img {
+  height: 100%;
+}
+
+.card1 .u {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  transition: all 0.4s;
+}
+
+.card1 .u h2 {
+  position: relative;
+  color: white;
+  margin-top: 40%;
+  margin-left: 50%;
+  font-family: "Crimson Text", serif;
+  font-size: 50px !important;
+  transform: translate(-50%, -40%);
+}
+
+.card1:hover .u {
+  transform: translateY(-100%);
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sss:hover .fa-arrow-up {
+  transform: rotate(180deg);
+}
+
+.ddd:hover .bd {
+  transform: translateY(-1060%);
+}
+.card1 .bd1 {
+  width: 100%;
+  height: 30px;
+
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  top: 0px;
+  z-index: 1;
+ 
+}
+
+.card1 .bd {
+  width: 100%;
+  height: 30px;
+
+
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+  z-index: 2;
+  transition: all 0.5s;
+ 
+}
+
+.bd1 .fa-arrow-up {
+  position: relative;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
+
+.bd .fa-arrow-up {
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.tit {
+  text-align: center;
+}
+
+.tit h2 {
+  padding-top: 2%;
+  font-family: "Crimson Text", serif;
+
+  font-size: 55px;
+}
+.tit h2::after {
+  content: "";
+
+  display: block;
+  height: 3px;
+  margin-left: 50%;
+  background-color: rgb(68, 132, 206);
+  margin-top: 1%;
+  transform: translate(-50%, 0);
+  width: 8%;
+}
